@@ -1,0 +1,43 @@
+name: Weekly Ad Intelligence
+
+on:
+  schedule:
+    # Runs Monday 12:00 UTC = 7:00 AM Houston (CDT) — after Agents 1 and 2
+    - cron: '0 12 * * 1'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ad-intel
+  cancel-in-progress: true
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the repo files
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install the Anthropic library
+        run: pip install anthropic
+
+      - name: Run the Ad Intelligence agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python ads_agent.py
+
+      - name: Save the new results
+        run: |
+          git config user.name "trend-spotter-bot"
+          git config user.email "actions@github.com"
+          git add ads.json
+          git commit -m "Weekly ad intel update $(date +'%Y-%m-%d')" || { echo "No changes to commit"; exit 0; }
+          git pull --rebase origin main
+          git push origin main
