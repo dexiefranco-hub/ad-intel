@@ -29,12 +29,17 @@ IS LONGEVITY: the ad has been running a long time (60+ days is the gold
 standard; longer is better). A long-running ad is a profitable ad — nobody
 pays to keep a losing ad live. That is the entire premise.
 
+- PLATFORM PRIORITY: Meta first. Most of your ads (roughly 70-80%) must come
+  from Meta (Facebook/Instagram Ad Library reporting), because it is fully
+  public and is the user's main strategy source. Include only 2-3 TikTok ads.
+- FORMAT MIX — REQUIRED: At least HALF of the ads must be classic e-commerce
+  formats: static image ads, carousels, and plain product-offer ads — the
+  kind DTC/dropshipping brands run for months. Do NOT fill the list with
+  viral video ads; those are the minority.
 - PHYSICAL PRODUCTS ONLY — things a customer buys and receives (gadgets,
   beauty, home, fitness, pet, apparel, etc.). NO services, apps, software,
   courses, insurance, or subscriptions. The strategies must be transferable
   to an e-commerce product store.
-- ALL ad formats count: static image ads, carousels, text ads, AND video.
-  Static image ads are often the longest-running of all — do not skip them.
 - For each ad, find how long it has been running (days/months) — that is the
   headline number.
 - Also capture the hook/angle and format so the strategy can be copied.
