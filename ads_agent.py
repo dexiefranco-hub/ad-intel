@@ -23,16 +23,23 @@ Today's date: {today}. Reporting week: {week_start} to {today}.
 STRICT RECENCY RULE: Only use information from the last 7-14 days. Include the
 current year in searches.
 
-Use web search to research WINNING e-commerce ads right now on two platforms:
-Meta (Facebook/Instagram Ad Library) and TikTok (Creative Center / top ads).
-Key principle: ad LONGEVITY is the best public signal of profitability — an ad
-still running after 60+ days is making money. Look for:
-- Long-running e-commerce/dropshipping ads and what they sell
-- Top-performing TikTok ad creatives and formats right now
-- Winning hooks, angles, and creative patterns being reported
-- Which product categories are getting heavy ad spend
+Use web search to research LONG-RUNNING ads on two platforms: Meta
+(Facebook/Instagram Ad Library) and TikTok. THE ONLY CRITERION FOR INCLUSION
+IS LONGEVITY: the ad has been running a long time (60+ days is the gold
+standard; longer is better). A long-running ad is a profitable ad — nobody
+pays to keep a losing ad live. That is the entire premise.
 
-Find 6-10 winning ads/campaigns total across both platforms.
+- PHYSICAL PRODUCTS ONLY — things a customer buys and receives (gadgets,
+  beauty, home, fitness, pet, apparel, etc.). NO services, apps, software,
+  courses, insurance, or subscriptions. The strategies must be transferable
+  to an e-commerce product store.
+- ALL ad formats count: static image ads, carousels, text ads, AND video.
+  Static image ads are often the longest-running of all — do not skip them.
+- For each ad, find how long it has been running (days/months) — that is the
+  headline number.
+- Also capture the hook/angle and format so the strategy can be copied.
+
+Find 8-12 long-running ads total across both platforms.
 
 Respond with ONLY valid JSON, no markdown fences, no commentary, exactly this shape:
 {{
@@ -40,24 +47,26 @@ Respond with ONLY valid JSON, no markdown fences, no commentary, exactly this sh
     {{
       "product": "clean product/brand name, 2-5 words",
       "platform": "meta | tiktok",
-      "category": "beauty / home / fitness / gadget / pet / other",
-      "hook": "the ad's opening hook or angle, max 12 words",
-      "format": "e.g. UGC testimonial, demo video, before/after, problem-solution",
-      "metric": "real figure, 6 words max, e.g. 'running 90+ days' or '12M views' — never invent; \\"\\" if none",
+      "ad_type": "image | video | carousel | text",
+      "category": "short category word",
+      "hook": "the ad's hook or angle, max 12 words",
+      "format": "e.g. testimonial, demo, before/after, problem-solution, plain offer",
+      "metric": "how long it's been running, e.g. 'running 8+ months' — the headline number; \\"\\" only if truly unknown",
       "strength": 1-100
     }}
   ],
   "strategies": [
-    "3-5 short, actionable takeaways a dropshipper can apply this week, max 15 words each"
+    "3-5 short, actionable takeaways from what the long-runners have in common, max 15 words each"
   ],
-  "summary": "2-3 sentences: what's winning in e-commerce ads right now and why"
+  "summary": "2-3 sentences: what the longest-running ads share and why they keep working"
 }}
 
 RULES:
-- metric must be REAL figures found via search (days running, views, engagement). Never invent.
-- Prefer ads/patterns cited by multiple sources over one-off mentions.
+- metric must be a REAL run-time found via search. Never invent. Sort your
+  list longest-running first.
+- Prefer ads cited by multiple sources.
 - hook and strategies must be SHORT — they display on a small dashboard.
-- strength = your 1-100 estimate of how proven/strong this ad approach is."""
+- strength = 1-100, weighted mostly by how long the ad has run."""
 
 
 def extract_json(text: str):
