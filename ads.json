@@ -1,105 +1,105 @@
 {
   "ads": [
     {
-      "product": "EMS Face Sculpt Roller",
-      "platform": "tiktok",
+      "product": "Facial Ice Roller Skincare",
+      "platform": "meta",
       "category": "beauty",
-      "hook": "Beauty tech does what a $300 spa visit does",
-      "format": "UGC before/after demo, creator-led skincare reveal",
-      "metric": "$70K+ estimated monthly revenue",
+      "hook": "Summer heat wrecking your skin? Watch this 10-second fix",
+      "format": "UGC testimonial, close-up demo video",
+      "metric": "beauty running 30\u201390+ days confirmed",
       "strength": 88
     },
     {
-      "product": "Portable USB Blender",
-      "platform": "meta",
-      "category": "home",
-      "hook": "Fresh smoothie anywhere in 30 seconds flat",
-      "format": "Product demo video, lifestyle summer angle",
-      "metric": "running 90+ days across multiple advertisers",
-      "strength": 82
-    },
-    {
-      "product": "LED Light Therapy Mask",
-      "platform": "meta",
-      "category": "beauty",
-      "hook": "Dermatologist-level results without leaving home",
-      "format": "Before/after UGC testimonial, problem-solution",
-      "metric": "1M+ impression bracket in Ad Library",
+      "product": "Portable Personal Blender",
+      "platform": "tiktok",
+      "category": "fitness",
+      "hook": "Tired of chunky protein shakes at the gym?",
+      "format": "problem-solution UGC, real-user demo Spark Ad",
+      "metric": "top TikTok ecommerce case study",
       "strength": 85
     },
     {
-      "product": "Pet Cooling Mat Summer",
+      "product": "Korean Skincare Bundle",
       "platform": "tiktok",
-      "category": "pet",
-      "hook": "Your dog is overheating \u2014 this fixes it instantly",
-      "format": "Emotional pet demo video, seasonal urgency hook",
-      "metric": "top demand signal July 2026 per research tools",
+      "category": "beauty",
+      "hook": "Dermatologist-inspired glow routine under $40",
+      "format": "GRWM before-and-after, creator-led TikTok Shop ad",
+      "metric": "beauty 42%+ of TikTok Shop GMV",
+      "strength": 91
+    },
+    {
+      "product": "Travel Compression Packing Cubes",
+      "platform": "meta",
+      "category": "other",
+      "hook": "Stop overpacking \u2014 fits double the clothes instantly",
+      "format": "before/after comparison video, carousel",
+      "metric": "top July 2026 product signal",
       "strength": 80
     },
     {
-      "product": "Compression Packing Cubes",
+      "product": "Magnetic Wireless Phone Charger",
       "platform": "tiktok",
-      "category": "home",
-      "hook": "Fit a week's clothes in a carry-on \u2014 watch this",
-      "format": "Satisfying side-by-side demo, before/after pack reveal",
-      "metric": "peak summer travel demand July 2026",
-      "strength": 76
-    },
-    {
-      "product": "Invisible Skin Lifting Tape",
-      "platform": "meta",
-      "category": "beauty",
-      "hook": "Instant facelift without surgery \u2014 TikTok's secret",
-      "format": "UGC testimonial, quick transform reveal video",
-      "metric": "$84K estimated monthly revenue",
-      "strength": 84
-    },
-    {
-      "product": "Hot Cold Eye Massager",
-      "platform": "tiktok",
-      "category": "fitness",
-      "hook": "I stopped getting headaches after using this daily",
-      "format": "UGC problem-state hook, reluctant endorser unboxing",
-      "metric": "top July 2026 test pick per multiple trend sources",
+      "category": "gadget",
+      "hook": "One snap and your phone charges \u2014 no cable needed",
+      "format": "quick demo video, product reveal",
+      "metric": "top TikTok Shop trending product 2026",
       "strength": 78
     },
     {
-      "product": "Silicone Facial Cleansing Device",
-      "platform": "tiktok",
-      "category": "beauty",
-      "hook": "Swap your washcloth \u2014 skin cleared in 7 days",
-      "format": "Demo-first reveal, 15\u201330 sec UGC routine video",
-      "metric": "$55K+ estimated monthly revenue",
-      "strength": 81
+      "product": "Home Kitchen Gadget Organizer",
+      "platform": "meta",
+      "category": "home",
+      "hook": "Your messy kitchen is costing you time every day",
+      "format": "visual pattern-interrupt, satisfying reveal video",
+      "metric": "home goods 61% visual-hook survival rate",
+      "strength": 82
     },
     {
-      "product": "Pet Grooming Glove",
+      "product": "Smart Pet Monitoring Camera",
       "platform": "meta",
       "category": "pet",
-      "hook": "Your pet actually loves being de-shed now",
-      "format": "Carousel + UGC video, emotional pet owner angle",
-      "metric": "Pets & Animals ROAS up 7.07% on Meta 2026",
-      "strength": 77
+      "hook": "See your pet while you're away \u2014 live on your phone",
+      "format": "emotional UGC testimonial, demo video",
+      "metric": "top pet dropship category 2026",
+      "strength": 79
     },
     {
-      "product": "Magnetic Couple Necklace",
+      "product": "Fitness Supplement Stack",
       "platform": "meta",
+      "category": "fitness",
+      "hook": "12,000 five-star reviews can't all be wrong",
+      "format": "authority-claim UGC, outcome-first video",
+      "metric": "authority hooks 52% of 30-day survivors",
+      "strength": 84
+    },
+    {
+      "product": "Retro OTG Summer Sunglasses",
+      "platform": "tiktok",
       "category": "other",
-      "hook": "Gift that sells itself \u2014 no caption needed",
-      "format": "Carousel gift angle, emotion-driven static + video",
-      "metric": "$77K estimated monthly revenue",
-      "strength": 75
+      "hook": "These went viral overnight \u2014 here's why",
+      "format": "lifestyle UGC, creator unboxing Spark Ad",
+      "metric": "$48,495 est. monthly revenue signal",
+      "strength": 74
+    },
+    {
+      "product": "Handheld Portable Cooling Fan",
+      "platform": "tiktok",
+      "category": "gadget",
+      "hook": "It's 95\u00b0F outside \u2014 this fits in your pocket",
+      "format": "problem-solution demo, outdoor lifestyle video",
+      "metric": "clearest July 2026 demand signal",
+      "strength": 86
     }
   ],
   "strategies": [
-    "Lead TikTok ads with a human face in frame 1 \u2014 boosts CTR 20\u201330%.",
-    "On Meta, sort Ad Library by impression band 500K+ to find real spend signals.",
-    "Use gift-angle copy (e.g. 'dog dad gift') \u2014 routinely hits 3x+ ROAS on Meta.",
-    "Place your CTA at 75\u201380% through TikTok video, not the final frame.",
-    "Test 5\u20138 UGC variants via Advantage+ Shopping; let Meta's algorithm pick winners."
+    "Lead every ad with a pain-point hook \u2014 it dominates 38\u201344% of 30-day survivors.",
+    "Test 5\u20138 creative variants per product; winners run Advantage+ at scale.",
+    "Use human face in first frame \u2014 TikTok data shows 20\u201330% higher CTR.",
+    "Place CTA at 75\u201380% through video \u2014 click spikes at seconds 15\u201320.",
+    "Mirror top July winners: cooling, travel, beauty, and home demo products."
   ],
-  "summary": "Beauty tech tools, summer-seasonal gadgets, and pet care products are commanding the heaviest ad spend across both Meta and TikTok in July 2026, driven by heat-triggered demand and the platform-wide dominance of UGC-style creative. On TikTok, demo-first and before/after formats with a human face in the opening frame are outperforming polished studio ads by a measurable margin, while on Meta, impression-weighted longevity and multi-variant testing inside Advantage+ Shopping campaigns are the clearest public signals of profitability. Dropshippers winning right now share one trait: creative volume \u2014 testing 15\u201325 variants per month across hooks and angles rather than betting on a single hero ad.",
-  "updated": "2026-07-20T06:02:53.910747+00:00",
+  "summary": "Right now, the strongest e-commerce ads combine a tight problem-state hook delivered by a real person in the first 2\u20133 seconds with a visible product demo that resolves the problem before the viewer can scroll away. Beauty and personal care dominate TikTok Shop GMV (42%+), while home gadgets, summer travel products, and cooling accessories are seeing the heaviest Meta and TikTok spend this week in July. Longevity-proven ad patterns \u2014 outcome-first UGC on Meta, GRWM and before/after demos on TikTok \u2014 are consistently outlasting polished brand creative, confirming authenticity as the primary performance lever in 2026.",
+  "updated": "2026-07-20T06:11:53.006203+00:00",
   "updated_display": "July 20, 2026",
   "week_range": "July 13, 2026 \u2013 July 20, 2026"
 }
