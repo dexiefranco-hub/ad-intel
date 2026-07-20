@@ -1,135 +1,135 @@
 {
   "ads": [
     {
-      "product": "HexClad Hybrid Cookware",
+      "product": "Youthforia Color Shift Blush",
       "platform": "meta",
-      "ad_type": "image",
-      "category": "home",
-      "hook": "Our pans aren't cheap \u2014 filter out price-shoppers instantly",
-      "format": "bold-claim static, anti-sell reverse psychology",
-      "metric": "running 12+ months (cited as multi-variant evergreen in Meta Ad Library)",
-      "strength": 97
-    },
-    {
-      "product": "Portable Blender BlendJet-style",
-      "platform": "tiktok",
       "ad_type": "video",
-      "category": "kitchen",
-      "hook": "I didn't think this tiny blender would work, but wow...",
-      "format": "UGC unboxing + first-use reaction, skeptic-to-believer",
-      "metric": "running 10+ months (consistently cited as proven winner across 2025\u20132026 sources)",
-      "strength": 94
+      "category": "beauty",
+      "hook": "Watch blush color change on your skin in real time",
+      "format": "UGC demo, first-impression reaction, mobile-shot",
+      "metric": "running 22+ months (avg 663 days per Evolut 2026 report)",
+      "strength": 99
     },
     {
-      "product": "Gua Sha Facial Tool",
+      "product": "Naturium Skincare Serum",
+      "platform": "meta",
+      "ad_type": "video",
+      "category": "skincare",
+      "hook": "Ingredient-led demo proves results before the sale",
+      "format": "problem-solution UGC, routine integration storytelling",
+      "metric": "running 20+ months (600+ day lifespan per BeautyMatter 2026)",
+      "strength": 96
+    },
+    {
+      "product": "TULA Skincare Probiotic Cream",
+      "platform": "meta",
+      "ad_type": "image",
+      "category": "skincare",
+      "hook": "Celebrity holds product \u2014 looks like editorial, not an ad",
+      "format": "earned-media aesthetic static image, lifestyle setting",
+      "metric": "running 12+ months (sustained runtime confirmed April 2026)",
+      "strength": 90
+    },
+    {
+      "product": "Gua Sha Facial Roller Set",
       "platform": "meta",
       "ad_type": "image",
       "category": "beauty",
-      "hook": "12 weeks to thicker, fuller looking skin \u2014 3 ingredient callouts",
-      "format": "problem/solution static with close-up product shot and social proof",
-      "metric": "running 9+ months (cited in Trendtrack 90-day proven winner filter)",
-      "strength": 92
-    },
-    {
-      "product": "AKT Deodorant Balm",
-      "platform": "meta",
-      "ad_type": "image",
-      "category": "beauty",
-      "hook": "30% OFF \u2014 11,000+ 5-star reviews \u2014 No.1 in Vogue",
-      "format": "flat-lay product image, discount + social proof + authority badge",
-      "metric": "running 9+ months \u2014 48M impressions cited by Trendtrack ad intelligence",
-      "strength": 91
+      "hook": "Skin concern left panel, product result right panel \u2014 split image",
+      "format": "3-panel static before/after, plain product offer",
+      "metric": "running 9+ months (top 30-day Meta survivor in beauty niche 2026)",
+      "strength": 85
     },
     {
       "product": "Posture Corrector Wearable",
       "platform": "meta",
-      "ad_type": "video",
-      "category": "fitness",
-      "hook": "My deadlift went from 225 to 405 \u2014 outcome-first UGC",
-      "format": "outcome-first UGC testimonial, multiple creator variants same angle",
-      "metric": "running 8+ months (Brandsearch 30+ day fitness survivor analysis, 2026)",
-      "strength": 90
-    },
-    {
-      "product": "Massage Gun Compact",
-      "platform": "tiktok",
-      "ad_type": "video",
-      "category": "fitness",
-      "hook": "Desk worker tries massage gun on lunch break \u2014 instant relief",
-      "format": "problem-solution demo, relatable everyday frustration open",
-      "metric": "running 8+ months (validated by Dropship Spy margin + TikTok view data 2026)",
-      "strength": 88
-    },
-    {
-      "product": "SURI Electric Toothbrush",
-      "platform": "meta",
       "ad_type": "image",
-      "category": "personal care",
-      "hook": "Five colors stacked \u2014 gift framing removes purchase hesitation",
-      "format": "clean product carousel/static, gifting reframe + Trustpilot ratings",
-      "metric": "running 7+ months \u2014 2.7M views and $24.1K spend cited by Trendtrack",
-      "strength": 86
-    },
-    {
-      "product": "LED Sunset Lamp Projector",
-      "platform": "tiktok",
-      "ad_type": "video",
-      "category": "home decor",
-      "hook": "Golden-hour lighting any time of day \u2014 bedroom transformation",
-      "format": "aesthetic room-reveal demo, mood/lifestyle storytelling",
-      "metric": "running 7+ months (cited as sustained TikTok viral winner through 2025\u20132026)",
-      "strength": 85
-    },
-    {
-      "product": "Hydrocolloid Acne Patches",
-      "platform": "tiktok",
-      "ad_type": "video",
-      "category": "skincare",
-      "hook": "TikTok-famous overnight zit-zapping \u2014 140,000+ glowing reviews",
-      "format": "before/after UGC, satisfying demo with social proof overlay",
-      "metric": "running 6+ months (Dropship Spy validated, evergreen skincare TikTok 2026)",
+      "category": "wellness",
+      "hook": "Slouch before vs. straight back after \u2014 one image, zero words",
+      "format": "before/after static image, plain product-offer",
+      "metric": "running 8+ months (evergreen Meta survivor, multi-source confirmed 2026)",
       "strength": 83
     },
     {
-      "product": "Graza Olive Oil Mayo",
+      "product": "Acupressure Mat and Pillow",
       "platform": "meta",
-      "ad_type": "image",
-      "category": "food",
-      "hook": "Mayo's about 65% oil \u2014 use the good stuff",
-      "format": "bright product flat-lay, colloquial copy, single-claim image ad",
-      "metric": "running 6+ months (cited in Shopify Meta Ad Library guide May 2026)",
+      "ad_type": "video",
+      "category": "fitness",
+      "hook": "10 minutes on the mat \u2014 outcome-first UGC claim",
+      "format": "UGC testimonial, problem-solution, Day 1 vs Day 30",
+      "metric": "running 7+ months (30+ day Meta fitness survivor, Brandsearch June 2026)",
       "strength": 80
     },
     {
-      "product": "Smart Vibration Posture Vest",
+      "product": "RIDGE Slim Wallet",
+      "platform": "meta",
+      "ad_type": "image",
+      "category": "accessories",
+      "hook": "Product shot, zero copy \u2014 premium silence signals confidence",
+      "format": "clean static image, plain product offer, no discount",
+      "metric": "running 6+ months (cited AdKit long-runner, multi-source 2026)",
+      "strength": 78
+    },
+    {
+      "product": "Pet Deshedding Silicone Glove",
+      "platform": "meta",
+      "ad_type": "carousel",
+      "category": "pet",
+      "hook": "Swipe to see fur pile \u2014 golden retriever grooming in 4 slides",
+      "format": "carousel demo, problem-solution, plain product offer",
+      "metric": "running 5+ months (30+ day Meta survivor, Dropship Spy April 2026)",
+      "strength": 75
+    },
+    {
+      "product": "Fashion Apparel Multi-Variant Carousel",
+      "platform": "meta",
+      "ad_type": "carousel",
+      "category": "apparel",
+      "hook": "8 styles, lifestyle photography \u2014 scroll to find your fit",
+      "format": "carousel 4-8 product variants, lifestyle shots, plain offer",
+      "metric": "running 5+ months (carousel dominant format for 30-day+ fashion ads, Brandsearch 2026)",
+      "strength": 72
+    },
+    {
+      "product": "Homeika Cordless Mini Vacuum",
+      "platform": "tiktok",
+      "ad_type": "video",
+      "category": "home",
+      "hook": "Starts mid-action \u2014 crumbs vanish from keyboard in 3 seconds",
+      "format": "demo, no intro, multiple use-case scenes",
+      "metric": "running 6+ months ($25.6M GMV, sustained TikTok spend, WinningHunter 2026)",
+      "strength": 82
+    },
+    {
+      "product": "Wyze Cam Indoor Security Camera",
+      "platform": "tiktok",
+      "ad_type": "video",
+      "category": "home",
+      "hook": "Real footage \u2014 catches delivery, pet, late-night movement",
+      "format": "everyday unfiltered footage, problem-reveal, plain offer",
+      "metric": "running 6+ months ($25.4M GMV, ongoing TikTok spend, WinningHunter 2026)",
+      "strength": 80
+    },
+    {
+      "product": "Posture Corrector Smart Sensor",
       "platform": "tiktok",
       "ad_type": "video",
       "category": "wellness",
-      "hook": "Vibrates when you slouch \u2014 remote-work ergonomics fix",
-      "format": "problem-agitate-solve demo, office/WFH relatable setting",
-      "metric": "running 5+ months (Dropship Spy sourced 2026, 60\u201370% margin confirmed)",
-      "strength": 76
-    },
-    {
-      "product": "Eyeliner Stamp Dual-Ended",
-      "platform": "meta",
-      "ad_type": "video",
-      "category": "beauty",
-      "hook": "Flawless wings in seconds \u2014 beginner-proof beauty hack",
-      "format": "UGC tutorial, beauty influencer testimonial + transformation reveal",
-      "metric": "running 5+ months \u2014 $55,005 est. monthly revenue cited by SellTheTrend Jul 2026",
+      "hook": "I wore this every day for one week \u2014 back pain gone",
+      "format": "UGC testimonial, before/after, problem-solution",
+      "metric": "running 5+ months (top TikTok Shop category, multi-source confirmed 2026)",
       "strength": 74
     }
   ],
   "strategies": [
-    "Lead with one bold outcome claim \u2014 longest runners never multi-benefit pitch.",
-    "Static image ads still drive 60\u201370% of Meta conversions; never skip them.",
-    "UGC-style video dominates 30+ day survivors across every ecommerce niche.",
-    "Gift-framing and social proof badges (reviews, press) extend ad life dramatically.",
-    "Evergreen problem-solvers outlast trend products \u2014 solve a pain that never goes away."
+    "Run static before/after images in beauty and fitness \u2014 they outlast video in those niches.",
+    "Carousel with 4-8 lifestyle variants is the longest-surviving apparel format on Meta.",
+    "Lead with the problem in the first second \u2014 pain-point openers dominate 30-day survivors.",
+    "One clear idea per ad: longest-runners communicate a single benefit, not a feature list.",
+    "Demo mid-action with no intro \u2014 skip the setup, show the result instantly on TikTok."
   ],
-  "summary": "The longest-running ads across Meta and TikTok share three traits: they solve a single, universally relatable problem, lead with one clear claim or outcome (a number, a transformation, or a bold dare), and use authentic UGC-style or bold static creative that blends into the feed rather than looking like a traditional ad. They keep working because the underlying problem \u2014 bad posture, dull skin, cheap cookware cycles, kitchen friction \u2014 never goes away, making the ad perpetually relevant to new audiences entering the top of the funnel every day.",
-  "updated": "2026-07-20T07:37:56.928165+00:00",
+  "summary": "The longest-running ads across both platforms share three traits: they open with a vivid pain point or visual pattern interrupt, communicate exactly one idea without clutter, and use formats native to the platform (static split-screen on Meta, unpolished mid-action demo on TikTok). With the median DTC ad dead in 17 days, ads surviving 6-22 months represent a tiny, verified group \u2014 all are problem-solvers in evergreen niches (beauty, wellness, home, pet) where the product result is immediately visible. Beauty and wellness dominate because transformation is demonstrable in seconds, giving the creative permanent replay value across cold audiences.",
+  "updated": "2026-07-20T07:54:45.464057+00:00",
   "updated_display": "July 20, 2026",
   "week_range": "July 13, 2026 \u2013 July 20, 2026"
 }
