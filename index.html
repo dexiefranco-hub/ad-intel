@@ -89,7 +89,7 @@ function adLink(a){
   const q = encodeURIComponent(a.product||'');
   return a.platform==='meta'
     ? `https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=${q}`
-    : `https://www.google.com/search?q=${q}+TikTok+ad`;
+    : `https://library.tiktok.com/ads`;   // TikTok's public ad library — no login needed
 }
 
 async function load(){
@@ -135,8 +135,9 @@ async function load(){
     html += `<h2 class="section">Browse The Libraries</h2>
     <div class="section-sub">See the live creatives yourself</div>
     <div class="libs">
-      <a class="lib" href="https://www.facebook.com/ads/library/" target="_blank" rel="noopener">Facebook Ad Library<small>every active Meta ad, searchable</small></a>
-      <a class="lib" href="https://ads.tiktok.com/business/creativecenter/inspiration/topads/pc/en" target="_blank" rel="noopener">TikTok Creative Center<small>top-performing TikTok ads</small></a>
+      <a class="lib" href="https://www.facebook.com/ads/library/" target="_blank" rel="noopener">Facebook Ad Library<small>every active Meta ad · fully public</small></a>
+      <a class="lib" href="https://library.tiktok.com/ads" target="_blank" rel="noopener">TikTok Ad Library<small>public, no login · partial coverage</small></a>
+      <a class="lib" href="https://ads.tiktok.com/business/creativecenter/inspiration/topads/pc/en" target="_blank" rel="noopener">TikTok Creative Center<small>full access needs a free Business login</small></a>
     </div>`;
 
     box.innerHTML = html;
