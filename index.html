@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ad Intelligence — Weekly Winning Ads</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F6F9; --card:#FFFFFF; --ink:#141A26; --muted:#5B6472;
+    --meta:#2563EB; --tiktok:#E5266A; --gold:#B7791F;
+    --line:#E3E7EE; --radius:14px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;line-height:1.45;padding:20px 16px 60px}
+  .wrap{max-width:1000px;margin:0 auto}
+
+  header{margin-bottom:16px}
+  .topbar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+  .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .navs{display:flex;gap:8px;flex-wrap:wrap}
+  .navbtn{background:var(--ink);color:#fff;font-weight:600;font-size:13px;padding:8px 14px;border-radius:99px;text-decoration:none;white-space:nowrap}
+  h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(26px,5vw,36px);letter-spacing:-.02em;margin-top:4px}
+  .updated{color:var(--muted);font-size:14px;margin-top:4px;font-weight:500}
+
+  .summary{background:var(--ink);color:#F2F5FA;border-radius:var(--radius);padding:16px 18px;font-size:14.5px;margin:16px 0 24px}
+  .summary b{color:#FFD37A}
+
+  h2.section{font-family:'Space Grotesk',sans-serif;font-size:15px;letter-spacing:.06em;text-transform:uppercase;margin:0 0 4px}
+  .section-sub{font-size:13px;color:var(--muted);margin-bottom:12px}
+
+  .plays{background:#FFF9EC;border:1.5px solid #EBCE8B;border-radius:var(--radius);padding:14px 18px;margin-bottom:30px}
+  .plays ol{margin-left:18px}
+  .plays li{font-size:14px;font-weight:500;padding:4px 0}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-bottom:30px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:15px 16px;border-top:4px solid var(--line)}
+  .card.meta{border-top-color:var(--meta)}
+  .card.tiktok{border-top-color:var(--tiktok)}
+  .card-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .a-name{font-weight:700;font-size:15.5px;color:var(--ink);text-decoration:none}
+  .a-name:hover{text-decoration:underline}
+  .a-metric{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:12.5px;white-space:nowrap}
+  .card.meta .a-metric{color:var(--meta)} .card.tiktok .a-metric{color:var(--tiktok)}
+  .a-hook{font-size:13.5px;margin-top:6px;font-weight:500}
+  .a-hook b{color:var(--gold)}
+  .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+  .tag{font-size:10.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:99px;background:#EEF1F6;color:var(--muted)}
+  .tag.plat{color:#fff}
+  .card.meta .tag.plat{background:var(--meta)} .card.tiktok .tag.plat{background:var(--tiktok)}
+
+  .libs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+  .lib{flex:1;min-width:220px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:13px 16px;text-decoration:none;color:var(--ink);font-weight:600;font-size:14px;text-align:center}
+  .lib:hover{border-color:var(--muted)}
+  .lib small{display:block;font-weight:400;color:var(--muted);font-size:12px;margin-top:2px}
+
+  .empty{background:var(--card);border:1px dashed var(--line);border-radius:var(--radius);padding:40px 20px;text-align:center;color:var(--muted)}
+  .empty b{color:var(--ink)}
+  footer{margin-top:34px;color:var(--muted);font-size:12.5px;text-align:center}
+  @media(max-width:640px){body{padding:14px 10px 50px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <div class="eyebrow">Agent 3 · Ads · Mondays 7 AM</div>
+      <div class="navs">
+        <a class="navbtn" href="https://dexiefranco-hub.github.io/trend-spotter/index.html">Agent 1: Products</a>
+        <a class="navbtn" href="https://dexiefranco-hub.github.io/trend-spotter/trends.html">Agent 2: Radar</a>
+      </div>
+    </div>
+    <h1>Ad Intelligence</h1>
+    <div class="updated" id="updated">Loading latest run…</div>
+  </header>
+
+  <div id="content"></div>
+
+  <footer>Longevity = the best public signal an ad is profitable · tap a product to see its live ads</footer>
+</div>
+
+<script>
+function esc(s){const d=document.createElement('div');d.textContent=s??'';return d.innerHTML;}
+function adLink(a){
+  const q = encodeURIComponent(a.product||'');
+  return a.platform==='meta'
+    ? `https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=${q}`
+    : `https://www.google.com/search?q=${q}+TikTok+ad`;
+}
+
+async function load(){
+  const box = document.getElementById('content');
+  try{
+    const res = await fetch('ads.json?v=' + Date.now());
+    if(!res.ok) throw new Error('no data yet');
+    const d = await res.json();
+
+    document.getElementById('updated').textContent = d.week_range ? 'Week of ' + d.week_range : '';
+
+    let html = '';
+    if(d.summary) html += `<div class="summary"><b>This week:</b> ${esc(d.summary)}</div>`;
+
+    if(Array.isArray(d.strategies) && d.strategies.length){
+      html += `<h2 class="section">🎯 Steal These Plays</h2>
+      <div class="section-sub">What the winning ads are doing — apply to your own campaigns</div>
+      <div class="plays"><ol>${d.strategies.map(s=>`<li>${esc(s)}</li>`).join('')}</ol></div>`;
+    }
+
+    const ads = (d.ads||[]).slice().sort((a,b)=>(b.strength||0)-(a.strength||0));
+    html += `<h2 class="section">Winning Ads Right Now</h2>
+    <div class="section-sub">Ranked by proven strength · blue = Meta, pink = TikTok</div><div class="grid">`;
+    for(const a of ads){
+      html += `<div class="card ${a.platform==='meta'?'meta':'tiktok'}">
+        <div class="card-top">
+          <a class="a-name" href="${adLink(a)}" target="_blank" rel="noopener">${esc(a.product)} ↗</a>
+          <span class="a-metric">${esc(a.metric||a.strength)}</span>
+        </div>
+        <div class="a-hook"><b>Hook:</b> ${esc(a.hook||'')}</div>
+        <div class="tags">
+          <span class="tag plat">${a.platform==='meta'?'Meta':'TikTok'}</span>
+          ${a.format?`<span class="tag">${esc(a.format)}</span>`:''}
+          ${a.category?`<span class="tag">${esc(a.category)}</span>`:''}
+        </div>
+      </div>`;
+    }
+    html += `</div>`;
+
+    html += `<h2 class="section">Browse The Libraries</h2>
+    <div class="section-sub">See the live creatives yourself</div>
+    <div class="libs">
+      <a class="lib" href="https://www.facebook.com/ads/library/" target="_blank" rel="noopener">Facebook Ad Library<small>every active Meta ad, searchable</small></a>
+      <a class="lib" href="https://ads.tiktok.com/business/creativecenter/inspiration/topads/pc/en" target="_blank" rel="noopener">TikTok Creative Center<small>top-performing TikTok ads</small></a>
+    </div>`;
+
+    box.innerHTML = html;
+  }catch(e){
+    document.getElementById('updated').textContent = '';
+    box.innerHTML = `<div class="empty"><b>No data yet.</b><br><br>Go to Actions → <b>Weekly Ad Intelligence</b> → <b>Run workflow</b>, then refresh here.</div>`;
+  }
+}
+load();
+</script>
+</body>
+</html>
